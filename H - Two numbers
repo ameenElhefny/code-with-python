@@ -1,0 +1,4 @@
+a,b=map(int ,input().split())
+print(f"floor {a} / {b} = {a//b}")
+print(f"ceil {a} / {b} = {(a//b)+int(bool(a%b))}")
+print(f"round {a} / {b} = {(a//b)+(1*(int(bool((a/b)-(a//b)>=0.5))))}")
