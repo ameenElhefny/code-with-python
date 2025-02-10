@@ -1,0 +1,4 @@
+pi=3.141592653
+R=float(input())
+area=pi*(R**2)
+print(f"{area:.9f}")
