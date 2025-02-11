@@ -1,0 +1,2 @@
+char = input().strip()
+print(chr(ord(char) + 1) if (char !='z') else "a")
