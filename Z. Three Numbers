@@ -1,0 +1,11 @@
+E = input().split()
+A = int(E[0])
+B = int(E[1])
+U = 0
+for I in range(0, A + 1):
+    for J in range(0, A + 1):
+        Z = B - (I + J) 
+        if 0 <= Z <= A:  
+            U += 1
+
+print(U)
